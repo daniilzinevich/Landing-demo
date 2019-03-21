@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Demo</title>
+    </head>
+    <body>
+        <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+            <nav class="uk-navbar-container uk-margin shadow" uk-navbar>
+                <div class="uk-navbar-left">
+                    <span class="uk-logo uk-text-uppercase uk-text-emphasis">Product</span>
+                    <span class="uk-text-lead uk-text-uppercase uk-text-muted">Generic product</span>
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="#contact-us" class="uk-text-uppercase uk-text-emphasis" uk-scroll>
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="uk-container">
+          <div class="uk-flex uk-flex-wrap uk-flex-middle uk-flex-right uk-text-center">
+            <div class="uk-width-1-1 uk-width-3-5@s uk-width-1-2@m uk-margin uk-margin-large-bottom">
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 500;">
+                    <ul class="uk-slideshow-items">
+                        <li>
+                            <img src="https://picsum.photos/600/800/?random" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/600/800/?random" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="https://picsum.photos/600/800/?random" alt="" uk-cover>
+                        </li>
+                    </ul>
+
+                    <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                </div>
+            </div>
+
+            <div class="uk-width-1-1 uk-width-2-5@s uk-width-1-2@m">
+                <h1 class="uk-text-bold uk-text-uppercase">
+                    Meet Product
+                </h1>
+                <p class="uk-text-uppercase">
+                    The best Generic product there is!
+                </p>
+            </div>
+
+            <div class="uk-width-1-1 uk-width-4-5@m uk-margin-large-bottom">
+                <p class="uk-text-lead uk-text-right@m">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+                    maiores modi quidem veniam, expedita quis laboriosam, ullam facere
+                    adipisci, iusto, voluptate sapiente corrupti asperiores rem nemo
+                    numquam fuga ab at.
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="teal lighten-5">
+            <div class="uk-container">
+                <div class="uk-flex uk-flex-wrap uk-margin-large-top uk-margin-large-bottom">
+                    <h2>Here ase some benefits to our product</h2>
+                    <div class="uk-margin-small">
+                        <span class="uk-text-bold">Lorem ipsum</span>
+                        <p class="inline">
+                            dolor sit amet, consectetur adipisicing elit. Harum maiores modi
+                            quidem veniam, expedita quis laboriosam, ullam facere adipisci,
+                            iusto, voluptate sapiente corrupti asperiores rem nemo numquam fuga
+                            ab at.
+                        </p>
+                    </div>
+                    <div class="uk-margin-small">
+                        <span class="uk-text-bold">Lorem ipsum</span>
+                        <p class="inline">
+                            dolor sit amet, consectetur adipisicing elit. Harum maiores modi
+                            quidem veniam, expedita quis laboriosam, ullam facere adipisci,
+                            iusto, voluptate sapiente corrupti asperiores rem nemo numquam fuga
+                            ab at.
+                        </p>
+                    </div>
+                    <div class="uk-margin-small">
+                        <span class="uk-text-bold">Lorem ipsum</span>
+                        <p class="inline">
+                            dolor sit amet, consectetur adipisicing elit. Harum maiores modi
+                            quidem veniam, expedita quis laboriosam, ullam facere adipisci,
+                            iusto, voluptate sapiente corrupti asperiores rem nemo numquam fuga
+                            ab at.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="teal lighten-4">
+            <div class="uk-container">
+                <div class="uk-flex uk-flex-wrap uk-margin-large-top uk-margin-large-bottom uk-text-lead">
+                    Lorem ipsumdolor sit amet, consectetur adipisicing elit. Harum maiores
+                    modi quidem veniam, expedita quis laboriosam, ullam facere adipisci,
+                    iusto, voluptate sapiente corrupti asperiores rem nemo numquam fuga ab
+                    at. Lorem ipsumdolor sit amet, consectetur adipisicing elit. Harum
+                    maiores modi quidem veniam, expedita quis laboriosam, ullam facere
+                    adipisci, iusto, voluptate sapiente corrupti asperiores rem nemo numquam
+                    fuga ab at. Lorem ipsumdolor sit amet, consectetur adipisicing elit.
+                    Harum maiores modi quidem veniam, expedita quis laboriosam, ullam facere
+                    adipisci, iusto, voluptate sapiente corrupti asperiores rem nemo numquam
+                    fuga ab at.
+                </div>
+            </div>
+        </div>
+        <div class="teal lighten-5">
+            <div class="uk-container">
+                <div class="uk-flex uk-flex-center uk-flex-wrap uk-margin-large-top uk-margin-large-bottom" id="contact-us">
+                    <h2 class="uk-text-center">
+                        Like our product? Give us more info to contact you later
+                    </h2>
+                    <form class="uk-grid-small" uk-grid>
+                        <div class="uk-width-1-2@s">
+                            <input class="uk-input teal lighten-5" type="text" placeholder="First name">
+                        </div>
+                        <div class="uk-width-1-2@s">
+                            <input class="uk-input teal lighten-5" type="text" placeholder="E-mail">
+                        </div>
+                        <div class="uk-width-1-1">
+                            <textarea class="uk-textarea teal lighten-5" rows="5" placeholder="Additional info"></textarea>
+                        </div>
+                        <div class="uk-width-1-1 uk-flex uk-flex-center">
+                            <button class="uk-button uk-button-default" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <nav class="uk-navbar-container teal" uk-navbar>
+            <div class="uk-navbar-left">
+                <span class="uk-margin-left uk-text-white">Get connected with us on social networks!</span>
+            </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li>
+                        <a href="#" class="uk-text-white" uk-icon="icon: facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="uk-text-white" uk-icon="icon: twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="uk-text-white" uk-icon="icon: linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="uk-text-white" uk-icon="icon: instagram"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="grey darken-3">
+            <div class="uk-container uk-text-center uk-text-small uk-text-white">
+                <div class="uk-margin-small-top uk-margin-small-bottom">©2019 —&nbsp;<span class="uk-text-bold">Product</span></div>
+            </div>
+        </div>
+    </body>
+</html>

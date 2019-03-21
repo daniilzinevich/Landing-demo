@@ -1,0 +1,52 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.teal.lighten-5 {
+    background-color: #e0f2f1 !important;
+    border-color: #e0f2f1 !important;
+}
+
+.teal.lighten-4 {
+    background-color: #b2dfdb !important;
+    border-color: #b2dfdb !important;
+}
+
+.teal {
+    background-color: #009688 !important;
+    border-color: #009688 !important;
+}
+
+.grey.darken-3 {
+    background-color: #424242 !important;
+    border-color: #424242 !important;
+}
+
+.inline {
+  display: inline;
+}
+
+input.uk-input.teal {
+  border-bottom: 1px solid #999 !important;
+}
+
+textarea.uk-textarea.teal {
+  border-bottom: 1px solid #999 !important;
+}
+
+.teal button {
+  background-color: #f5f5f5;
+}
+
+.uk-logo {
+    padding-left: 15px;
+}
+
+.uk-text-white {
+  color: white !important;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+}
